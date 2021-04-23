@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scrapes"
+version = "0.1.0"
+description = ""
+authors = ["gatheluck <gatheluck+tech@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+beautifulsoup4 = "^4.9.3"
+requests = "^2.25.1"
+datapackage = "^1.15.2"
+pandas = "^1.2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
